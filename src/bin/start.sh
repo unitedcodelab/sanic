@@ -1,5 +1,5 @@
 #!/bin/bash
 
 # shellcheck disable=SC2164
-cd core
+cd ../core
 sanic server

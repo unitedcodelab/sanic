@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# shellcheck disable=SC2164
-cd src
+cd ..
 
 python -m venv venv || python3 -m venv venv || py -m venv venv || py3 -m venv venv
 source venv/bin/activate || .\venv\Scripts\activate

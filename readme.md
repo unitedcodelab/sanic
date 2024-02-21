@@ -8,8 +8,8 @@ Rode o projeto: `docker compose up`
 
 ## Como rodar em modo de desenvolvimento ?
 Rode o arquivo "start.sh" com o comando :</br>
-- windows: `.\src\dev`
-- linux: `./src/dev.sh`
+- windows: `.\src\bin\dev`
+- linux: `./src/bin/dev.sh`
 
 ## Como contribuir ?
 - Siga a <a href="#">estupidez mínima para isso aqui não virar uma bagunça</a>.
