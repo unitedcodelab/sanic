@@ -7,7 +7,7 @@ COPY ./src/ .
 RUN python -m venv venv; source venv/bin/activate
 
 RUN chmod +x start.sh 
-CMD ["sh", "bin/start.sh"]
+CMD ["sh", "bin/docker_start.sh"]
 
 RUN pip install --upgrade pip \
     && pip install -r internal/env/requirements.txt
